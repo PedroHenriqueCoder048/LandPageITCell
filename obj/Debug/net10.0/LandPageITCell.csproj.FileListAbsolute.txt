@@ -96,4 +96,4 @@
 /workspaces/LandPageITCell/obj/Debug/net10.0/LandPageITCell.pdb
 /workspaces/LandPageITCell/obj/Debug/net10.0/LandPageITCell.genruntimeconfig.cache
 /workspaces/LandPageITCell/obj/Debug/net10.0/ref/LandPageITCell.dll
-/workspaces/LandPageITCell/obj/Debug/net10.0/compressed/uadq9cokq1-{0}-dfg4k85sti-dfg4k85sti.gz
+/workspaces/LandPageITCell/obj/Debug/net10.0/compressed/uadq9cokq1-{0}-tqzj3vamuv-tqzj3vamuv.gz

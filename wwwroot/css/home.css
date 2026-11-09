@@ -12,7 +12,7 @@ h1{
 
 .div-section-initial{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     flex-wrap: wrap;
 }
 
@@ -34,6 +34,8 @@ h1{
 .div-section-history-content{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
 }
 
 .div-section-services{
@@ -43,11 +45,54 @@ h1{
 
 .div-section-services-content{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr ;
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
 }
 
 .div-card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    border: 2px black solid;
+    width: 63%;
+    height: 240px;
+    padding: 6px;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+.div-card img{
+    width:69%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.div-container-map{
+    overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+    margin-bottom: 5%;
+}
+
+.div-container-map iframe{
+    left:0;
+    top:0;
+    height:60%;
+    width:100%;
+    position:absolute;
+}
+
+@media (min-width: 1024px){
+.div-section-initial{
+    flex-direction:row;
+}
+.div-section-services-content{
+    grid-template-columns: repeat(2,1fr);
+}
+
 }
