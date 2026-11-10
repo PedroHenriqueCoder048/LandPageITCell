@@ -2,6 +2,10 @@ h1{
     color: rgb(249, 104, 7);
 }
 
+h3{
+    color: rgb(249, 104, 7);
+}
+
 .div-container-main{
     display:flex;
     flex-direction: column;
@@ -23,7 +27,7 @@ h1{
     margin:2px;
     width: 120px;
     color: antiquewhite;
-    background-color: rgb(37, 251, 37);
+    background-color: rgb(24, 180, 24);
 }
 
 .div-section-history{
@@ -87,12 +91,46 @@ h1{
     position:absolute;
 }
 
+.div-container-contacts{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.div-container-contacts-social-media{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-client{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-items: center;
+}
+
+.form-client label{
+    color: rgb(249, 104, 7);
+}
+
+.form-client input{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid ;
+}
+
 @media (min-width: 1024px){
 .div-section-initial{
     flex-direction:row;
 }
 .div-section-services-content{
     grid-template-columns: repeat(2,1fr);
+}
+
+.div-container-contacts{
+    flex-direction:row;
+    justify-content:space-between ;
 }
 
 }
