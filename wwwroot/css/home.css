@@ -1,9 +1,21 @@
 h1{
     color: rgb(249, 104, 7);
+    font-size: 2rem;
+}
+
+h2{
+    color: rgb(249, 104, 7);
+    font-size: 1.65em;
 }
 
 h3{
     color: rgb(249, 104, 7);
+    font-size: 1.45em;
+}
+
+h4{
+    color: rgb(249, 104, 7);
+    font-size: 1.25em;
 }
 
 .div-container-main{
@@ -28,6 +40,12 @@ h3{
     width: 120px;
     color: antiquewhite;
     background-color: rgb(24, 180, 24);
+    cursor:pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn-whatsapp:hover{
+    transform: scale(1.1);
 }
 
 .div-section-history{
@@ -70,9 +88,10 @@ h3{
 }
 
 .div-card img{
-    width:69%;
+    width:90%;
     height: 50%;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 .div-container-map{
@@ -80,7 +99,7 @@ h3{
     padding-bottom:30%;
     position:relative;
     height:0;
-    margin-bottom: 5%;
+    margin-bottom: 30px;
 }
 
 .div-container-map iframe{
@@ -99,7 +118,9 @@ h3{
 
 .div-container-contacts-social-media{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -108,16 +129,72 @@ h3{
     flex-direction: column;
     align-items: start;
     justify-items: center;
+    border:2px solid rgb(249, 104, 7);
+    border-radius: 10px;
+    margin:10px;
+    padding:5px;
+    width: 95%;
 }
 
 .form-client label{
     color: rgb(249, 104, 7);
+    margin:5px;
+}
+
+.form-client input:not([type="checkbox"]){
+    width:90%;
 }
 
 .form-client input{
     margin: 5px;
     padding: 5px;
     border: 1px solid ;
+    margin:5px;
+    border-radius: 5px;
+    border-color:rgb(249, 104, 7);
+}
+
+.form-client textarea{
+    width: 90%;
+    height: 130px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+}
+
+.form-client input[type="checkbox"]{
+    accent-color: rgb(249, 104, 7);
+}
+
+
+.form-client-btn{
+    background: rgb(249, 104, 7);
+    border: 2px solid;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 15px;
+    color: aliceblue;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+}
+
+ .form-client-btn:hover {
+    transform: scale(1.1);
+}
+
+footer div{
+    color: aliceblue;
+}
+
+@media (min-width: 720px){
+.div-section-initial{
+    flex-direction:row;
+}
+.div-section-services-content{
+    grid-template-columns: repeat(2,1fr);
+}
+
 }
 
 @media (min-width: 1024px){
@@ -125,7 +202,7 @@ h3{
     flex-direction:row;
 }
 .div-section-services-content{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 
 .div-container-contacts{
