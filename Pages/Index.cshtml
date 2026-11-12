@@ -124,21 +124,25 @@
                     <p>Facebook</p>
                 </div>
                 <div class="div-form-clint">
-                    <form class="form-client" mathod="post" action="#">
+                    <form class="form-client" method="post">
                         <h4>Fale com o suporte por E-mail</h4>
-                        <label for="nome">Nome</label>
-                        <input type="text" id="name" placeholder="Nome do contato" required/>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Nome do contato" required/>
                         <label for="email">E-mail</label>
-                        <input type="email" id="email" placeholder="exemplo@gmail.com" required/>
+                        <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" required/>
                         <label for="fone">Telefone</label>
-                        <input type="tel" id ="fone" placeholder="(91) 99999-9999"/>
-                        <label for="whats">Contato possui WhatsApp</label>
-                        <input type="checkbox" for="whats"/>
+                        <input type="tel" id ="fone" name="fone" placeholder="(91) 99999-9999"/>
+                        <label for="IsWhats">Contato possui WhatsApp</label>
+                        <input type="checkbox" id="IsWhats" name="IsWhats" />
                         <label for="doubt">Dúvidas</label>
-                        <textarea id="doubt" rows="10" cols="1" placeholder="Escreva sua mensagem aqui" required></textarea>
+                        <textarea id="doubt" name="doubt" rows="10" cols="1" placeholder="Escreva sua mensagem aqui" required></textarea>
                         <input class="form-client-btn" type="submit" value="Envia"/>
                     </form>
-                </ldiv>
+                    @if (ViewData["Response"] != null)
+                        {
+                            <p>@ViewData["Response"]</p>
+                        }
+                </div>
             </div>
         </section>
         <section id="section-map">

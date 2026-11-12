@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LandPageITCell")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+406bd41ebd688a1b37e4e978d1907c9285420892")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3eafe22366494234ad6090ab211fd8562378822e")]
 [assembly: System.Reflection.AssemblyProductAttribute("LandPageITCell")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LandPageITCell")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
