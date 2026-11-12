@@ -22,7 +22,6 @@
 /workspaces/LandPageITCell/obj/Debug/net10.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /workspaces/LandPageITCell/obj/Debug/net10.0/scopedcss/bundle/LandPageITCell.styles.css
 /workspaces/LandPageITCell/obj/Debug/net10.0/scopedcss/projectbundle/LandPageITCell.bundle.scp.css
-/workspaces/LandPageITCell/obj/Debug/net10.0/compressed/puzihfyckc-{0}-b9sayid5wm-b9sayid5wm.gz
 /workspaces/LandPageITCell/obj/Debug/net10.0/compressed/1b83rd9bi0-{0}-61n19gt1b8-61n19gt1b8.gz
 /workspaces/LandPageITCell/obj/Debug/net10.0/compressed/cgtvrxiscs-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 /workspaces/LandPageITCell/obj/Debug/net10.0/compressed/1maex6c4pp-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -96,4 +95,5 @@
 /workspaces/LandPageITCell/obj/Debug/net10.0/LandPageITCell.pdb
 /workspaces/LandPageITCell/obj/Debug/net10.0/LandPageITCell.genruntimeconfig.cache
 /workspaces/LandPageITCell/obj/Debug/net10.0/ref/LandPageITCell.dll
-/workspaces/LandPageITCell/obj/Debug/net10.0/compressed/uadq9cokq1-{0}-949cxtk277-949cxtk277.gz
+/workspaces/LandPageITCell/obj/Debug/net10.0/compressed/uadq9cokq1-{0}-gxf7k8yyxf-gxf7k8yyxf.gz
+/workspaces/LandPageITCell/obj/Debug/net10.0/compressed/puzihfyckc-{0}-idtr2rsj5j-idtr2rsj5j.gz

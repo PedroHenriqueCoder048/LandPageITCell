@@ -1,5 +1,6 @@
 h1{
     font-size: 2rem;
+    color:aliceblue;
 }
 
 h2{
@@ -18,8 +19,13 @@ p{
     font-size: 1.2em;
 }
 
-h1,h2,h3,h4{
-    color: rgb(216, 18, 4);
+h2,h3,h4{
+    color: #D81204;
+}
+
+hr{
+    border-top: solid 5px;
+    width: 50%;
 }
 
 .div-container-main{
@@ -39,10 +45,16 @@ h1,h2,h3,h4{
     border-radius: 20px;
 }
 
+.div-section-initial hr{
+    color: #D81204;
+}
+
 .div-section-initial div{
     margin: 10px;
     padding: 5px;
 }
+
+
 
 .div-section-initial p{
     color: aliceblue;
@@ -68,21 +80,51 @@ h1,h2,h3,h4{
     display:flex;
     flex-direction: column;
     margin: 5px;
-    padding: 5px;
     border:1.6px solid rgb(33, 37, 41);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #D81204;
 }
 
-.div-section-history-content{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.div-section-history h2{
+    color: #FFFFFF;
 }
+
+.div-section-history hr{
+    color: rgb(33, 37, 41);
+}
+
+.div-section-history-content-text{
+    margin: 10px;
+    padding: 5px;
+    color: aliceblue;
+}
+
 
 .div-section-history-content-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-color: rgb(33, 37, 41);
+}
+
+.div-section-history-content-img img{
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.div-section-history-content-img h5{
+    color:#D81204;
 }
 
 .div-section-services{
@@ -103,13 +145,13 @@ h1,h2,h3,h4{
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    width: 100%;
     border: 2px black solid;
     width: 63%;
     height: 240px;
     padding: 6px;
     text-align: justify;
     border-radius: 15px;
+    background:#FFFFFF;
 }
 
 .div-card img{
@@ -155,7 +197,7 @@ h1,h2,h3,h4{
     align-items: start;
     justify-items: center;
     background-color: rgb(33, 37, 41);
-    border:2px solid rgb(201, 18, 5);
+    border:2px solid #D81204;
     border-radius: 10px;
     margin:10px;
     padding:5px;
@@ -163,7 +205,7 @@ h1,h2,h3,h4{
 }
 
 .form-client label{
-    color:rgb(216, 18, 4);
+    color:#D81204;
     margin:5px;
 }
 
@@ -177,7 +219,7 @@ h1,h2,h3,h4{
     border: 1px solid ;
     margin:5px;
     border-radius: 5px;
-    border-color:rgb(216, 18, 4);
+    border-color:#D81204;
 }
 
 
@@ -191,12 +233,12 @@ h1,h2,h3,h4{
 }
 
 .form-client input[type="checkbox"]{
-    accent-color: rgb(216, 18, 4);
+    accent-color: #D81204;
 }
 
 
 .form-client-btn{
-    background: rgb(216, 18, 4);
+    background: #D81204;
     border: 2px solid;
     border-radius: 5px;
     width: 100px;
@@ -227,6 +269,9 @@ footer div{
 @media (min-width: 1024px){
 .div-section-initial{
     flex-direction:row;
+}
+.div-section-history{
+    flex-direction: row;
 }
 .div-section-services-content{
     grid-template-columns: repeat(3,1fr);
